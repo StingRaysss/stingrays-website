@@ -1,0 +1,78 @@
+body {
+    background-size:100%;
+}
+
+.project-name {
+    font-family:cursive;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top:10px;
+    width: 500px;
+    margin-bottom:0px;
+    color:rgb(139, 191, 236);
+
+}
+.project-name:hover {
+    cursor:pointer;
+    text-decoration: underline;
+    color: rgb(0, 152, 66);
+    transition: 1s;
+}
+.project-host {
+    font-family: cursive;   
+    font-size: 35px;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 20px;
+    margin-top:0px;
+    color: rgb(217, 202, 35);            
+}
+.project-host:hover {
+    color: Red;
+    transition: 1s;
+    cursor:pointer;
+}
+.project-pic {
+    width: 700pxd;
+    height: 710px;
+    margin-right: 50px;
+    margin-top: auto;
+    float:right;
+    border-radius:50px;
+    opacity:0.8;
+}
+.para-one {
+    font-family:cursive;
+    font-size: 18px;
+    width:700px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.para-one:hover {
+    cursor:pointer;
+    color:rgb(255, 242, 0);
+    transition: .5s;
+}
+.para-two {
+    font-family:cursive;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right:20px;
+}
+.para-two:hover {
+    cursor:pointer;
+    color:rgb(251, 255, 0);
+    transition: .5s;
+}
+
+.link-to {
+    margin-left:20px;
+    color:rgb(246, 246, 246);
+    font-size:20px;
+}
